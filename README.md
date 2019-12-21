@@ -1,13 +1,13 @@
-## Restaurant Page
+# Restaurant Page
 
 Javascript with WEbpack project from The Odin Project [curriculum](https://www.theodinproject.com/lessons/restaurant-page)
 
-# Topics viewed:
+### Topics viewed:
 
 -npm
 -Javascript Modules
 -WebPack
 -Github
 
-# Author:
+### Author:
 [Cristian Ines (MephistoDevelop)](https://github.com/MephistoDevelop)
