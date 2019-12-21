@@ -1,1 +1,1 @@
-document.body.appendChild(function(){const e=document.createElement("div");return e.innerHTML="Yo soy el div del src path",e}());
+document.body.appendChild(function(){const e=document.createElement("div");return e.className="container",e.innerHTML="Yo soy el divoo del src path",e}());
