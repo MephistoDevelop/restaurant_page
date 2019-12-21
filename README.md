@@ -1,12 +1,15 @@
 # Restaurant Page
 
-Javascript with WEbpack project from The Odin Project [curriculum](https://www.theodinproject.com/lessons/restaurant-page)
+Javascript with Webpack project from The Odin Project [curriculum](https://www.theodinproject.com/lessons/restaurant-page)
 
 ### Topics viewed:
 
 -npm
+
 -Javascript Modules
+
 -WebPack
+
 -Github
 
 ### Author:
