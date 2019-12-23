@@ -7,7 +7,6 @@ function bodyComponent() {
   element.style.color = "white";
   element.style.height = "100vh";
   element.style.display = "flex";
-  element.style.justifyContent = "center";
   element.style.margin = "10px";
   element.style.padding = "10px";
   element.style.backgroundColor = "red";
@@ -17,6 +16,9 @@ function bodyComponent() {
 
 function addNavbar() {
   const navContainer = document.createElement("div");
+  navContainer.className = "tabscontainer";
+  navContainer.style.display = "flex";
+  navContainer.style.width = "100vw";
   const nav = document.querySelector(".main-container");
   nav.appendChild(navContainer);
   const tabs = ["Home", "Menu", "Contact"];
@@ -25,8 +27,9 @@ function addNavbar() {
     button.addEventListener("click", changeTab);
     button.textContent = tab;
     button.classList.add(tab.toLowerCase());
+    button.style.width = "29%";
     const tabsContainer = document.createElement("div");
-    nav.appendChild(button);
+    navContainer.appendChild(button);
   });
 }
 
