@@ -1,8 +1,10 @@
 body {
   /*background-color: #46b3e6;*/
+  height: 100%;
   font-weight: 500;
   background-image: url("./img/restaurant.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 h1 {
   margin: 0;
@@ -81,7 +83,40 @@ p {
   text-shadow: 1px 1px 1px black;
   opacity: 0.8;
 }
-#openText {
+#contact-container {
+  background-color: rgba(70, 179, 230, 0.3);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3% 50px;
+}
+#contact-email {
+  text-shadow: 10px 1px 25px black;
+  font-weight: bolder;
+  font-size: 32px;
+  z-index: 1;
+}
+#contact-header {
+  text-align: center;
+  text-shadow: 8px 5px 8px black;
+  font-size: 50px;
+  text-decoration: none;
+  padding: 20px 0;
+  width: 70%;
+  font-weight: 400;
+}
+#contact-phone {
+  text-shadow: 10px 1px 25px black;
+  font-weight: bolder;
+  font-size: 32px;
+  z-index: 1;
+}
+#contact-zip {
+  text-shadow: 10px 1px 25px black;
+  font-weight: bolder;
+  font-size: 32px;
+  z-index: 1;
 }
 #speciality-text {
   width: 50%;
@@ -96,9 +131,10 @@ p {
   margin: 0px 5px;
   display: flex;
   flex-direction: column;
-  height: 100%;
-  margin-top: 10px;
+  height: 80%;
+  margin-top: 3%;
   font-size: 20px;
+  background-color: rgba(70, 179, 230, 0.3);
 }
 .textHome h1 {
   text-align: center;
@@ -125,8 +161,7 @@ p {
     font-size: 40px;
   }
   .textHome p {
-    padding: 0;
-    margin-left: 18%;
+    padding: 8px 0;
     margin-top: 2z0px;
     font-size: 24px;
   }
