@@ -64,7 +64,7 @@ function showHome() {
   maintext5.id = "speciality-text";
   maintext5.textContent = "Try the Speciality of the house Tostada de Ceviche";
   textHome.className = "textHome";
-  mainText.textContent = "SeaFood Hernandez";
+  mainText.textContent = "SeaFood Hernandez Restaurant";
   textHome.appendChild(mainText);
   textHome.appendChild(maintext2);
   textHome.appendChild(maintext3);

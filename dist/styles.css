@@ -205,3 +205,59 @@ p {
     text-align: left;
   }
 }
+@media only screen and (min-width: 0px) and (max-width: 590px) {
+  button {
+    font-size: 18px !important;
+  }
+  .tabscontainer {
+    min-width: 300px;
+  }
+
+  #contact-container {
+    min-width: 300px;
+    margin: 20px 0%;
+  }
+  #contact-header {
+    font-size: 18px !important;
+
+    min-width: 250px;
+  }
+  #contact-phone {
+    font-size: 17px;
+  }
+  #contact-zip {
+    font-size: 16px;
+  }
+  #contact-email {
+    font-size: 18px;
+  }
+  #openText {
+    font-size: 15px;
+  }
+  #speciality-text {
+    font-size: 15px;
+    width: 80%;
+  }
+  #menu-container {
+    margin: 10px 0;
+  }
+  .textHome {
+    max-height: 65%;
+    min-width: 220px;
+    margin: 10px 0;
+    padding: 0 5%;
+  }
+  .textHome h1 {
+    font-size: 18px;
+  }
+  .textHome h1:hover {
+    font-size: 20px;
+  }
+
+  .textHome p {
+    font-size: 16px;
+  }
+  .textHome p:hover {
+    font-size: 18px;
+  }
+}
