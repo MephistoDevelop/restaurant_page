@@ -36,7 +36,7 @@ p {
   height: 100%;
   border: none;
   font-size: 28px;
-  padding: 10px 0;
+  padding: 0;
   font-weight: 800;
   background-color: transparent;
   text-shadow: 1px 1px 1px white;
@@ -55,7 +55,7 @@ p {
   height: 100%;
   border: none;
   font-size: 28px;
-  padding: 10px 0;
+  padding: 0;
   font-weight: 800;
   background-color: transparent;
   text-shadow: 1px 1px 1px white;
@@ -107,8 +107,8 @@ p {
   font-size: 50px;
   text-decoration: none;
   padding: 20px 0;
-  width: 70%;
-  font-weight: 400;
+  width: 75%;
+  font-weight: bolder;
 }
 #contact-phone {
   text-shadow: 10px 1px 25px black;
@@ -138,6 +138,7 @@ p {
 .tabscontainer {
   display: flex;
   width: 100%;
+  min-height: 52px;
   background-color: rgba(240, 248, 255, 0.8);
 }
 .textHome {
@@ -176,10 +177,31 @@ p {
   }
   .textHome p {
     padding: 8px 0;
-    margin-top: 2z0px;
-    font-size: 24px;
+    margin: 2px 15%;
+    font-size: 20px;
   }
   .textHome p:hover {
-    font-size: 26px;
+    font-size: 21px;
+  }
+  #contact-header {
+    font-size: 28px;
+    width: 100%;
+    margin: 10% 3% 0 0;
+  }
+  #contact-phone {
+    font-size: 28px;
+  }
+  #contact-zip {
+    font-size: 28px;
+  }
+  #openText {
+    margin-left: 15%;
+    width: 70%;
+    text-align: left;
+  }
+  #speciality-text {
+    margin-left: 15%;
+    width: 70%;
+    text-align: left;
   }
 }
