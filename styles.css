@@ -29,6 +29,7 @@ p {
   flex-direction: column;
 }
 .home {
+  border-right: 2px solid #46b3e6 !important;
   width: 33.5%;
   height: 100%;
   border: none;
@@ -46,6 +47,7 @@ p {
   opacity: 0.8;
 }
 .menu {
+  border-right: 2px solid #46b3e6 !important;
   width: 33.5%;
   height: 100%;
   border: none;
@@ -82,6 +84,7 @@ p {
 .tabscontainer {
   display: flex;
   width: 100%;
+  background-color: rgba(240, 248, 255, 0.8);
 }
 .textHome {
   margin: 0px 5px;
@@ -118,7 +121,7 @@ p {
   .textHome p {
     padding: 0;
     margin-left: 18%;
-    margin-top: 20px;
+    margin-top: 2z0px;
     font-size: 24px;
   }
   .textHome p:hover {
