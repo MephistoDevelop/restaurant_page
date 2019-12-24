@@ -81,6 +81,12 @@ p {
   text-shadow: 1px 1px 1px black;
   opacity: 0.8;
 }
+#openText {
+}
+#speciality-text {
+  width: 50%;
+  text-align: left;
+}
 .tabscontainer {
   display: flex;
   width: 100%;
@@ -96,7 +102,7 @@ p {
 }
 .textHome h1 {
   text-align: center;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 8px 5px 8px black;
   font-size: 58px;
   text-decoration: none;
   padding: 20px 0;
@@ -105,10 +111,10 @@ p {
   text-decoration: underline;
 }
 .textHome p {
-  padding-left: 35%;
-  text-shadow: 5px 1px 1px black;
+  text-shadow: 10px 1px 25px black;
   font-weight: bolder;
   font-size: 32px;
+  z-index: 1;
 }
 .textHome p:hover {
   text-decoration: underline;

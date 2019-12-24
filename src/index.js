@@ -39,6 +39,8 @@ function changeTab() {
     maintext3.textContent = "-Fresh eats";
     maintext4.textContent = "-Live Music";
     maintext6.textContent = "Open everydays from 10am";
+    maintext6.id = "openText";
+    maintext5.id = "speciality-text";
     maintext5.textContent =
       "Try the Speciality of the house Tostada de Ceviche";
     textHome.className = "textHome";
