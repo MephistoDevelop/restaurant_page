@@ -40,6 +40,7 @@ p {
   font-weight: 800;
   background-color: transparent;
   text-shadow: 1px 1px 1px white;
+  transition: 0.8s;
 }
 .home:hover {
   background-color: #46b3e6 !important;
@@ -58,6 +59,7 @@ p {
   font-weight: 800;
   background-color: transparent;
   text-shadow: 1px 1px 1px white;
+  transition: 0.8s;
 }
 .menu:hover {
   background-color: #46b3e6 !important;
@@ -75,6 +77,7 @@ p {
   font-weight: 800;
   background-color: transparent;
   text-shadow: 1px 1px 1px white;
+  transition: 0.8s;
 }
 .contact:hover {
   background-color: #46b3e6 !important;
@@ -151,9 +154,11 @@ p {
   font-size: 58px;
   text-decoration: none;
   padding: 20px 0;
+  transition: 0.5s;
 }
 .textHome h1:hover {
   text-decoration: underline;
+  transition: 0.5s;
 }
 .textHome p {
   text-shadow: 10px 1px 25px black;
