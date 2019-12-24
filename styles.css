@@ -4,6 +4,13 @@ body {
   background-image: url("./img/restaurant.jpg");
   background-size: cover;
 }
+h1 {
+  margin: 0;
+}
+p {
+  margin: 0;
+  padding: 10px;
+}
 .container {
   width: 100%;
   margin: 0px 20px;
@@ -77,14 +84,44 @@ body {
   width: 100%;
 }
 .textHome {
-  margin: 0px 20px;
+  margin: 0px 5px;
   display: flex;
   flex-direction: column;
-  height: 30%;
-  background-color: blue;
+  height: 100%;
   margin-top: 10px;
   font-size: 20px;
 }
 .textHome h1 {
   text-align: center;
+  text-shadow: 1px 1px 1px black;
+  font-size: 58px;
+  text-decoration: none;
+  padding: 20px 0;
+}
+.textHome h1:hover {
+  text-decoration: underline;
+}
+.textHome p {
+  padding-left: 35%;
+  text-shadow: 5px 1px 1px black;
+  font-weight: bolder;
+  font-size: 32px;
+}
+.textHome p:hover {
+  text-decoration: underline;
+  font-size: 34px;
+}
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  .textHome h1 {
+    font-size: 40px;
+  }
+  .textHome p {
+    padding: 0;
+    margin-left: 18%;
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  .textHome p:hover {
+    font-size: 26px;
+  }
 }
