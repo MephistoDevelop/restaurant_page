@@ -25,38 +25,53 @@ function addNavbar() {
 }
 
 function changeTab() {
-  if (this.className === "home" && flag === 0) {
-    flag++;
-    const mainContainer = document.querySelector(".main-container");
-    const textHome = document.createElement("div");
-    const mainText = document.createElement("h1");
-    const maintext2 = document.createElement("p");
-    const maintext3 = document.createElement("p");
-    const maintext4 = document.createElement("p");
-    const maintext5 = document.createElement("p");
-    const maintext6 = document.createElement("p");
-    maintext2.textContent = "-variety of dishes";
-    maintext3.textContent = "-Fresh eats";
-    maintext4.textContent = "-Live Music";
-    maintext6.textContent = "Open everydays from 10am";
-    maintext6.id = "openText";
-    maintext5.id = "speciality-text";
-    maintext5.textContent =
-      "Try the Speciality of the house Tostada de Ceviche";
-    textHome.className = "textHome";
-    mainText.textContent = "SeaFood Hernandez";
-    textHome.appendChild(mainText);
-    textHome.appendChild(maintext2);
-    textHome.appendChild(maintext3);
-    textHome.appendChild(maintext4);
-    textHome.appendChild(maintext5);
-    textHome.appendChild(maintext6);
-    mainContainer.appendChild(textHome);
+  const contact = document.getElementById("contact-container");
+  const menu = document.getElementById("menu-container");
+  const home = document.querySelector(".textHome");
+  if (this.className === "home") {
+    contact.style.display = "none";
+    menu.style.display = "none";
+    home.style.display = "inherit";
   } else if (this.className === "menu") {
-    alert("Yo soy la tab Menu");
+    home.style.display = "none";
+    contact.style.display = "none";
+    menu.style.display = "inherit";
   } else if (this.className === "contact") {
-    showContact();
+    home.style.display = "none";
+    contact.style.display = "inherit";
+    menu.style.display = "none";
+  } else {
+    contact.style.display = "none";
+    menu.style.display = "none";
+    home.style.display = "inherit";
   }
+}
+
+function showHome() {
+  const mainContainer = document.querySelector(".main-container");
+  const textHome = document.createElement("div");
+  const mainText = document.createElement("h1");
+  const maintext2 = document.createElement("p");
+  const maintext3 = document.createElement("p");
+  const maintext4 = document.createElement("p");
+  const maintext5 = document.createElement("p");
+  const maintext6 = document.createElement("p");
+  maintext2.textContent = "-variety of dishes";
+  maintext3.textContent = "-Fresh eats";
+  maintext4.textContent = "-Live Music";
+  maintext6.textContent = "Open everydays from 10 am";
+  maintext6.id = "openText";
+  maintext5.id = "speciality-text";
+  maintext5.textContent = "Try the Speciality of the house Tostada de Ceviche";
+  textHome.className = "textHome";
+  mainText.textContent = "SeaFood Hernandez";
+  textHome.appendChild(mainText);
+  textHome.appendChild(maintext2);
+  textHome.appendChild(maintext3);
+  textHome.appendChild(maintext4);
+  textHome.appendChild(maintext5);
+  textHome.appendChild(maintext6);
+  mainContainer.appendChild(textHome);
 }
 
 function showContact() {
@@ -84,5 +99,16 @@ function showContact() {
   contactContainer.appendChild(contactEmail);
 }
 
+function showMenu() {
+  const mainContainer = document.querySelector(".main-container");
+  const menuContainer = document.createElement("div");
+  menuContainer.id = "menu-container";
+  mainContainer.appendChild(menuContainer);
+}
+
 document.body.appendChild(bodyComponent());
 addNavbar();
+showHome();
+showContact();
+showMenu();
+changeTab();
