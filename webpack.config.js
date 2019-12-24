@@ -6,7 +6,19 @@ module.exports = {
     filename: "main.js",
     path: path.resolve(__dirname, "dist")
   },
-  watch: true
+  watch: true,
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"]
+      },
+      {
+        test: /\.(png|svg|jpg|gif)$/,
+        use: ["file-loader"]
+      }
+    ]
+  }
 };
 
 const BrowserSyncPlugin = require("browser-sync-webpack-plugin");
@@ -20,7 +32,13 @@ module.exports = {
       // ./public directory is being served
       host: "localhost",
       port: 3001,
-      files: ["./dist/*.html", "./dist/*.js", "./dist/*.css", "./src/*.js"],
+      files: [
+        "./dist/*.html",
+        "./dist/*.js",
+        "./dist/*.css",
+        "./src/*.js",
+        "./src/img/*.jpg"
+      ],
       server: { baseDir: ["dist"] }
     })
   ]
