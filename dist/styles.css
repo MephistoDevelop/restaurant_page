@@ -4,6 +4,12 @@ body {
   background-image: url("./img/restaurant.jpg");
   background-size: cover;
 }
+.container {
+  width: 100%;
+  margin: 0px 20px;
+  display: flex;
+  flex-direction: column;
+}
 .main-container {
   background-color: transparent !important;
   display: flex;
@@ -69,4 +75,16 @@ body {
 .tabscontainer {
   display: flex;
   width: 100%;
+}
+.textHome {
+  margin: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  height: 30%;
+  background-color: blue;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.textHome h1 {
+  text-align: center;
 }
