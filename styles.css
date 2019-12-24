@@ -1,4 +1,31 @@
 body {
-  background-color: #46b3e6;
+  /*background-color: #46b3e6;*/
   font-weight: 500;
+  background-image: url("./img/restaurant.jpg");
+  background-size: cover;
+}
+.main-container {
+  background-color: transparent !important;
+}
+
+.home:hover {
+  background-color: #46b3e6 !important;
+  color: white;
+  transition: 0.5s;
+  text-shadow: 1px 1px 1px black;
+  opacity: 0.8;
+}
+.menu:hover {
+  background-color: #46b3e6 !important;
+  color: white;
+  transition: 0.5s;
+  text-shadow: 1px 1px 1px black;
+  opacity: 0.8;
+}
+.contact:hover {
+  background-color: #46b3e6 !important;
+  color: white;
+  transition: 0.3s;
+  text-shadow: 1px 1px 1px black;
+  opacity: 0.8;
 }
