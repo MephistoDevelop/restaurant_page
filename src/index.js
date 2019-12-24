@@ -59,7 +59,7 @@ function showHome() {
   maintext2.textContent = "-variety of dishes";
   maintext3.textContent = "-Fresh eats";
   maintext4.textContent = "-Live Music";
-  maintext6.textContent = "Open everydays from 10 am";
+  maintext6.textContent = "Open everydays from 10 am with a familar ambient";
   maintext6.id = "openText";
   maintext5.id = "speciality-text";
   maintext5.textContent = "Try the Speciality of the house Tostada de Ceviche";
