@@ -6,14 +6,41 @@ body {
 }
 .main-container {
   background-color: transparent !important;
+  display: flex;
+  color: white;
+  height: 100vh;
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  background-color: #dff6f0;
+  flex-direction: column;
 }
-
+.home {
+  width: 33.5%;
+  height: 100%;
+  border: none;
+  font-size: 28px;
+  padding: 10px 0;
+  font-weight: 800;
+  background-color: transparent;
+  text-shadow: 1px 1px 1px white;
+}
 .home:hover {
   background-color: #46b3e6 !important;
   color: white;
   transition: 0.5s;
   text-shadow: 1px 1px 1px black;
   opacity: 0.8;
+}
+.menu {
+  width: 33.5%;
+  height: 100%;
+  border: none;
+  font-size: 28px;
+  padding: 10px 0;
+  font-weight: 800;
+  background-color: transparent;
+  text-shadow: 1px 1px 1px white;
 }
 .menu:hover {
   background-color: #46b3e6 !important;
@@ -22,10 +49,24 @@ body {
   text-shadow: 1px 1px 1px black;
   opacity: 0.8;
 }
+.contact {
+  width: 33.5%;
+  height: 100%;
+  border: none;
+  font-size: 28px;
+  padding: 10px 0;
+  font-weight: 800;
+  background-color: transparent;
+  text-shadow: 1px 1px 1px white;
+}
 .contact:hover {
   background-color: #46b3e6 !important;
   color: white;
   transition: 0.3s;
   text-shadow: 1px 1px 1px black;
   opacity: 0.8;
+}
+.tabscontainer {
+  display: flex;
+  width: 100%;
 }
