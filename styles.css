@@ -90,6 +90,7 @@ p {
   flex-direction: column;
   align-items: center;
   margin: 3% 50px;
+  padding-top: 5%;
 }
 #contact-email {
   text-shadow: 10px 1px 25px black;
@@ -122,17 +123,25 @@ p {
   width: 50%;
   text-align: left;
 }
+#menu-container {
+  background-color: rgba(70, 179, 230, 0.3);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3% 50px;
+  padding-top: 5%;
+}
 .tabscontainer {
   display: flex;
   width: 100%;
   background-color: rgba(240, 248, 255, 0.8);
 }
 .textHome {
-  margin: 0px 5px;
+  margin: 3% 50px;
   display: flex;
   flex-direction: column;
   height: 80%;
-  margin-top: 3%;
   font-size: 20px;
   background-color: rgba(70, 179, 230, 0.3);
 }
