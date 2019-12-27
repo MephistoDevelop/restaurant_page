@@ -1,6 +1,7 @@
 body {
   /*background-color: #46b3e6;*/
-  height: 100%;
+  min-height: 700px;
+  height: 100vh;
   font-weight: 500;
   background-image: url("./img/restaurant.jpg");
   background-size: cover;
@@ -21,16 +22,17 @@ p {
 }
 .card-image-container {
   margin: 10px;
-  width: 30%;
+  width: 35%;
   height: 90%;
   background-color: blue;
 }
 .gridImages-container {
   background-color: red;
-  height: 30% !important;
+  height: 100vh !important;
   width: 100%;
   display: flex;
   margin: 10px 0;
+  min-height: 280px;
 }
 .main-container {
   background-color: transparent !important;
@@ -145,8 +147,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 3% 50px;
-  padding-top: 5%;
+  margin: 3% 0px;
 }
 .tabscontainer {
   display: flex;
