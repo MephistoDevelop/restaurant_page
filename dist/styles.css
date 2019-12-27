@@ -146,6 +146,7 @@ p {
   display: flex;
   flex-direction: column;
   height: 80%;
+  min-height: 500px;
   font-size: 20px;
   background-color: rgba(70, 179, 230, 0.3);
 }
@@ -165,15 +166,21 @@ p {
   text-shadow: 10px 1px 25px black;
   font-weight: bolder;
   font-size: 32px;
+  padding: 10px 160px;
   z-index: 1;
 }
 .textHome p:hover {
   text-decoration: underline;
-  font-size: 34px;
+  font-size: 45px !important;
 }
 @media only screen and (min-width: 600px) and (max-width: 800px) {
+  .home,
+  .menu,
+  .contact {
+    font-size: 18px !important;
+  }
   .textHome h1 {
-    font-size: 40px;
+    font-size: 38px;
   }
   .textHome p {
     padding: 8px 0;
@@ -181,18 +188,21 @@ p {
     font-size: 20px;
   }
   .textHome p:hover {
-    font-size: 21px;
+    font-size: 22px !important;
+  }
+  #contact-container {
+    max-height: 380px;
   }
   #contact-header {
-    font-size: 28px;
+    font-size: 24px;
     width: 100%;
     margin: 10% 3% 0 0;
   }
   #contact-phone {
-    font-size: 28px;
+    font-size: 26px;
   }
   #contact-zip {
-    font-size: 28px;
+    font-size: 26px;
   }
   #openText {
     margin-left: 15%;
@@ -215,7 +225,9 @@ p {
 
   #contact-container {
     min-width: 300px;
-    margin: 20px 0%;
+    margin: 5% 0%;
+    padding: 15vh 0;
+    max-height: 40%;
   }
   #contact-header {
     font-size: 18px !important;
