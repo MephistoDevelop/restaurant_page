@@ -19,6 +19,19 @@ p {
   display: flex;
   flex-direction: column;
 }
+.card-image-container {
+  margin: 10px;
+  width: 30%;
+  height: 90%;
+  background-color: blue;
+}
+.gridImages-container {
+  background-color: red;
+  height: 30% !important;
+  width: 100%;
+  display: flex;
+  margin: 10px 0;
+}
 .main-container {
   background-color: transparent !important;
   display: flex;
