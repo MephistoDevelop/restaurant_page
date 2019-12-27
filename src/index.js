@@ -1,4 +1,4 @@
-import { addNavbar, changeTab } from "./navbar";
+import { addNavbar, changeTab, init } from "./navbar";
 import { showContact } from "./contactTab";
 import { showHome } from "./homeTab";
 import { showMenu } from "./menuTab";
@@ -15,5 +15,5 @@ function bodyComponent() {
   showHome();
   showContact();
   showMenu();
-  changeTab();
+  init();
 })();

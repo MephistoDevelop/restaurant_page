@@ -15,7 +15,14 @@ function addNavbar() {
     navContainer.appendChild(button);
   });
 }
-
+function init() {
+  const contact = document.getElementById("contact-container");
+  const menu = document.getElementById("menu-container");
+  const home = document.querySelector(".textHome");
+  contact.style.display = "none";
+  menu.style.display = "none";
+  home.style.display = "inherit";
+}
 function changeTab() {
   document.addEventListener(
     "click",
@@ -35,13 +42,9 @@ function changeTab() {
         home.style.display = "none";
         contact.style.display = "inherit";
         menu.style.display = "none";
-      } else {
-        contact.style.display = "none";
-        menu.style.display = "none";
-        home.style.display = "inherit";
       }
     },
     false
   );
 }
-export { addNavbar, changeTab };
+export { addNavbar, changeTab, init };
