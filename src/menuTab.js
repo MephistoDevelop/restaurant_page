@@ -19,15 +19,23 @@ function showMenu() {
   gridimages2.className = "gridImages-container";
   gridimages3.className = "gridImages-container";
   cardContainer.className = "card-image-container";
+  cardContainer.id = "img-cocktail-shrimp";
   cardContainer2.className = "card-image-container";
+  cardContainer2.id = "img-cocktail-octopus";
   cardContainer3.className = "card-image-container";
+  cardContainer3.id = "img-ostions";
   cardContainer4.className = "card-image-container";
+  cardContainer4.id = "tostada-ceviche";
   cardContainer5.className = "card-image-container";
+  cardContainer5.id = "tostada-pulpo";
   cardContainer6.className = "card-image-container";
+  cardContainer6.id = "tostada-camaron";
   cardContainer7.className = "card-image-container";
+  cardContainer7.id = "fried-fish2";
   cardContainer8.className = "card-image-container";
+  cardContainer8.id = "fried-fish";
   cardContainer9.className = "card-image-container";
-
+  cardContainer9.id = "shrimp-soup";
   mainContainer.appendChild(menuContainer);
   menuContainer.appendChild(gridimages);
   menuContainer.appendChild(gridimages2);
@@ -41,8 +49,6 @@ function showMenu() {
   gridimages3.appendChild(cardContainer7);
   gridimages3.appendChild(cardContainer8);
   gridimages3.appendChild(cardContainer9);
-  /*
-  gridimages.appendChild(cardContainer);*/
 }
 
 export { showMenu };

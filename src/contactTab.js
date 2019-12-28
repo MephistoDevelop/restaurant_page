@@ -11,7 +11,7 @@ function showContact() {
   const contactEmail = document.createElement("p");
   contactEmail.id = "contact-email";
   const contactPhone = document.createElement("p");
-  contactHeader.textContent = "Addres: Constituyentes Esquina con Allende";
+  contactHeader.textContent = "Direction: Constituyentes Esquina con Allende";
   contactPhone.textContent = "Phone: +52 47 41 14 23 52";
   contactPhone.id = "contact-phone";
   contactzipCode.textContent = "ZipCode: 47420";
