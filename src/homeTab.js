@@ -23,6 +23,7 @@ function showHome() {
   textHome.appendChild(maintext5);
   textHome.appendChild(maintext6);
   mainContainer.appendChild(textHome);
+  document.body.style.height = "100px";
 }
 
 export { showHome };

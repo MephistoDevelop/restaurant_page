@@ -13,13 +13,40 @@ function showMenu() {
   const cardContainer7 = document.createElement("div");
   const cardContainer8 = document.createElement("div");
   const cardContainer9 = document.createElement("div");
+  const shrimptext = document.createElement("p");
+  const octopustext = document.createElement("p");
+  const ostionstext = document.createElement("p");
+  const cevichetext = document.createElement("p");
+  const tostadacamarontext = document.createElement("p");
+  const tostadapulpotext = document.createElement("p");
+  const friedfishtext = document.createElement("p");
+  const friedfish2text = document.createElement("p");
+  const souptext = document.createElement("p");
 
   menuContainer.id = "menu-container";
   gridimages.className = "gridImages-container";
   gridimages2.className = "gridImages-container";
   gridimages3.className = "gridImages-container";
   cardContainer.className = "card-image-container";
+  shrimptext.className = "images-text";
+  octopustext.className = "images-text";
+  ostionstext.className = "images-text";
+  cevichetext.className = "images-text";
+  tostadacamarontext.className = "images-text";
+  tostadapulpotext.className = "images-text";
+  friedfishtext.className = "images-text";
+  friedfish2text.className = "images-text";
+  souptext.className = "images-text";
   cardContainer.id = "img-cocktail-shrimp";
+  shrimptext.textContent = "Shrimp Cocktail";
+  octopustext.textContent = "Octopus Cocktail";
+  ostionstext.textContent = "Ostions in Shell";
+  cevichetext.textContent = "Tostada de Ceviche";
+  tostadapulpotext.textContent = "Tostada de Octopus";
+  tostadacamarontext.textContent = "Tostada de Shrimps";
+  friedfishtext.textContent = "Fried fish with potatos";
+  friedfish2text.textContent = "Fried Fish";
+  souptext.textContent = "Soup de Shrimps";
   cardContainer2.className = "card-image-container";
   cardContainer2.id = "img-cocktail-octopus";
   cardContainer3.className = "card-image-container";
@@ -49,6 +76,18 @@ function showMenu() {
   gridimages3.appendChild(cardContainer7);
   gridimages3.appendChild(cardContainer8);
   gridimages3.appendChild(cardContainer9);
+
+  cardContainer.appendChild(shrimptext);
+  cardContainer2.appendChild(octopustext);
+  cardContainer3.appendChild(ostionstext);
+  cardContainer4.appendChild(cevichetext);
+  cardContainer5.appendChild(tostadapulpotext);
+  cardContainer6.appendChild(tostadacamarontext);
+  cardContainer7.appendChild(friedfishtext);
+  cardContainer8.appendChild(friedfish2text);
+  cardContainer9.appendChild(souptext);
+
+  document.body.style.height = "1150px";
 }
 
 export { showMenu };
