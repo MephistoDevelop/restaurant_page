@@ -156,7 +156,20 @@ p {
   width: 33%;
   background-size: cover;
   transition: 0.5s;
-  font-size: 50px;
+}
+#shrimp-text {
+  text-shadow: 5px 3px 1px black;
+  position: relative;
+  top: 70%;
+  font-size: 35px;
+  text-align: center;
+  color: white;
+}
+.images-text {
+  text-shadow: 5px 3px 1px black;
+  position: relative;
+  top: 70%;
+  font-size: 35px;
   text-align: center;
   color: white;
 }
