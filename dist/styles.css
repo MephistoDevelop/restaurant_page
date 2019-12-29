@@ -120,6 +120,7 @@ p {
   text-align: center;
   text-shadow: 8px 5px 8px black;
   font-size: 30px;
+  margin-top: 3%;
   text-decoration: none;
   padding: 20px 0;
   width: 75%;
@@ -245,7 +246,7 @@ p {
   text-shadow: 8px 5px 8px black;
   font-size: 38px;
   text-decoration: none;
-  padding: 20px 0;
+  padding: 30px 0;
   transition: 0.5s;
 }
 .textHome h1:hover {
