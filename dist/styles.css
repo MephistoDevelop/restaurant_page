@@ -264,7 +264,18 @@ p {
   text-decoration: underline;
   font-size: 30px !important;
 }
-@media only screen and (min-width: 600px) and (max-width: 800px) {
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+  .body {
+    height: 1290px !important;
+  }
+  .card-image-container {
+    width: 45% !important;
+    height: 250px !important;
+  }
+  .gridImages-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
   .home,
   .menu,
   .contact {
@@ -305,10 +316,23 @@ p {
     width: 70%;
     text-align: left;
   }
+  #fried-fish2 {
+    background-position: 0 0;
+  }
+  #shrimp-soup {
+    background-position: 0 0;
+  }
 }
-@media only screen and (min-width: 0px) and (max-width: 590px) {
+@media only screen and (min-width: 0px) and (max-width: 499px) {
   button {
     font-size: 18px !important;
+  }
+  .gridImages-container {
+    flex-wrap: wrap;
+  }
+  .card-image-container {
+    width: 100% !important;
+    height: 400px !important;
   }
   .tabscontainer {
     min-width: 300px;
@@ -359,8 +383,10 @@ p {
 
   .textHome p {
     font-size: 16px;
+    margin: 0;
+    padding: 10px 0;
   }
   .textHome p:hover {
-    font-size: 18px;
+    font-size: 15px !important;
   }
 }
