@@ -143,16 +143,19 @@ p {
   width: 33%;
   background-size: cover;
   background-repeat: no-repeat;
+  min-height: 250px;
 }
 #fried-fish2 {
   background-image: url(./img/fried-fish2.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0 -50px;
+  min-height: 250px;
 }
 #img-ostions {
   background-image: url(./img/ostions.jpeg);
   background-size: cover;
+  min-height: 250px;
 }
 #img-cocktail-shrimp {
   background-image: url(./img/cocktail.jpg);
