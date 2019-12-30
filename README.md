@@ -36,11 +36,11 @@ run `npm run build`
 
 ## Authors
 
-👤 **MephistoDevelop**
+👤 **Cristian Ines Hernandez A.  - MephistoDevelop**
 
 - Github: [@MephistoDevelop](https://github.com/MephistoDevelop)
 - Twitter: [@MephistoDevelop](https://twitter.com/MephistoDevelop)
-- Linkedin: [linkedin](https://www.linkedin.com/in/cristian-hernandez1992/)
+- Linkedin: [Cristian Hernandez](https://www.linkedin.com/in/cristian-hernandez1992/)
 
 ## 🤝 Contributing
 
