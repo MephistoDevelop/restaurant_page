@@ -14,7 +14,7 @@ Javascript with Webpack project from The Odin Project [curriculum](https://www.t
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://mephistodevelop.github.io/restaurant_page/)
 
 ## Getting Started
 
