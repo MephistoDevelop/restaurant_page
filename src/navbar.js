@@ -1,28 +1,3 @@
-function addNavbar() {
-  const navContainer = document.createElement('div');
-  navContainer.className = 'tabscontainer';
-
-  const nav = document.querySelector('.main-container');
-  nav.appendChild(navContainer);
-
-  const tabs = ['Home', 'Menu', 'Contact'];
-  tabs.forEach(tab => {
-    const button = document.createElement('button');
-    button.addEventListener('click', changeTab);
-    button.textContent = tab;
-    button.classList.add(tab.toLowerCase());
-
-    navContainer.appendChild(button);
-  });
-}
-function init() {
-  const contact = document.getElementById('contact-container');
-  const menu = document.getElementById('menu-container');
-  const home = document.querySelector('.textHome');
-  contact.style.display = 'none';
-  menu.style.display = 'none';
-  home.style.display = 'inherit';
-}
 function changeTab() {
   document.addEventListener(
     'click',
@@ -47,4 +22,32 @@ function changeTab() {
     false
   );
 }
-export default { addNavbar, changeTab, init };
+
+function addNavbar() {
+  const navContainer = document.createElement('div');
+  navContainer.className = 'tabscontainer';
+
+  const nav = document.querySelector('.main-container');
+  nav.appendChild(navContainer);
+
+  const tabs = ['Home', 'Menu', 'Contact'];
+  tabs.forEach(tab => {
+    const button = document.createElement('button');
+    button.addEventListener('click', changeTab);
+    button.textContent = tab;
+    button.classList.add(tab.toLowerCase());
+
+    navContainer.appendChild(button);
+  });
+}
+
+function init() {
+  const contact = document.getElementById('contact-container');
+  const menu = document.getElementById('menu-container');
+  const home = document.querySelector('.textHome');
+  contact.style.display = 'none';
+  menu.style.display = 'none';
+  home.style.display = 'inherit';
+}
+
+export { addNavbar, changeTab, init };

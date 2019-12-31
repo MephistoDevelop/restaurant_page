@@ -21,8 +21,6 @@ module.exports = {
   },
 };
 
-const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
-
 module.exports = {
   watch: true,
   plugins: [
