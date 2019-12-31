@@ -23,13 +23,11 @@
       "node": {
         "extensions": [
           ".js",
-          ".config",
-          ".config.js"
-        ],
-        "paths": [
-          "./"
+          ".jsx",
+          ".ts",
+          ".tsx"
         ]
       }
     }
-  }
+  },
 }
