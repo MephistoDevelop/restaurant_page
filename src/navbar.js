@@ -1,26 +1,22 @@
 function changeTab() {
-  document.addEventListener(
-    'click',
-    function(e) {
-      const contact = document.getElementById('contact-container');
-      const menu = document.getElementById('menu-container');
-      const home = document.querySelector('.textHome');
-      if (e.target.className === 'home') {
-        contact.style.display = 'none';
-        menu.style.display = 'none';
-        home.style.display = 'inherit';
-      } else if (e.target.className === 'menu') {
-        home.style.display = 'none';
-        contact.style.display = 'none';
-        menu.style.display = 'inherit';
-      } else if (e.target.className === 'contact') {
-        home.style.display = 'none';
-        contact.style.display = 'inherit';
-        menu.style.display = 'none';
-      }
-    },
-    false
-  );
+  document.addEventListener('click', function(e) {
+    const contact = document.getElementById('contact-container');
+    const menu = document.getElementById('menu-container');
+    const home = document.querySelector('.textHome');
+    if (e.target.className === 'home') {
+      contact.style.display = 'none';
+      menu.style.display = 'none';
+      home.style.display = 'inherit';
+    } else if (e.target.className === 'menu') {
+      home.style.display = 'none';
+      contact.style.display = 'none';
+      menu.style.display = 'inherit';
+    } else if (e.target.className === 'contact') {
+      home.style.display = 'none';
+      contact.style.display = 'inherit';
+      menu.style.display = 'none';
+    }
+  });
 }
 
 function addNavbar() {
@@ -31,7 +27,7 @@ function addNavbar() {
   nav.appendChild(navContainer);
 
   const tabs = ['Home', 'Menu', 'Contact'];
-  tabs.forEach(tab => {
+  tabs.forEach((tab) => {
     const button = document.createElement('button');
     button.addEventListener('click', changeTab);
     button.textContent = tab;

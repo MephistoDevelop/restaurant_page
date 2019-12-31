@@ -9,7 +9,7 @@ function bodyComponent() {
   return element;
 }
 
-(function() {
+(() => {
   const content = document.getElementById('content');
   content.appendChild(bodyComponent());
   addNavbar();
