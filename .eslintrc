@@ -22,7 +22,9 @@
     "import/resolver": {
       "node": {
         "extensions": [
-          ".js"
+          ".js",
+          ".config",
+          ".config.js"
         ],
         "paths": [
           "./"
