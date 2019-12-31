@@ -1,5 +1,5 @@
 function changeTab() {
-  document.addEventListener('click', function(e) {
+  document.addEventListener('click', function (e) {
     const contact = document.getElementById('contact-container');
     const menu = document.getElementById('menu-container');
     const home = document.querySelector('.textHome');
