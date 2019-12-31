@@ -1,12 +1,12 @@
 function showHome() {
-  const mainContainer = document.querySelector('.main-container');
-  const textHome = document.createElement('div');
-  const mainText = document.createElement('h1');
-  const maintext2 = document.createElement('p');
-  const maintext3 = document.createElement('p');
-  const maintext4 = document.createElement('p');
-  const maintext5 = document.createElement('p');
-  const maintext6 = document.createElement('p');
+  var mainContainer = document.querySelector('.main-container');
+  var textHome = document.createElement('div');
+  var mainText = document.createElement('h1');
+  var maintext2 = document.createElement('p');
+  var maintext3 = document.createElement('p');
+  var maintext4 = document.createElement('p');
+  var maintext5 = document.createElement('p');
+  var maintext6 = document.createElement('p');
   maintext2.textContent = '-variety of dishes';
   maintext3.textContent = '-Fresh eats';
   maintext4.textContent = '-Live Music';
