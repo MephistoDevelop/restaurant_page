@@ -1,4 +1,5 @@
 const path = require('path');
+const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
@@ -20,8 +21,6 @@ module.exports = {
     ],
   },
 };
-
-const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 
 module.exports = {
   watch: true,
