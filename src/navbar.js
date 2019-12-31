@@ -36,7 +36,6 @@ function addNavbar() {
     button.addEventListener('click', changeTab);
     button.textContent = tab;
     button.classList.add(tab.toLowerCase());
-
     navContainer.appendChild(button);
   });
 }
