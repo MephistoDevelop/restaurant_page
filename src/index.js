@@ -4,13 +4,13 @@ import { showHome } from './homeTab';
 import { showMenu } from './menuTab';
 
 function bodyComponent() {
-  const element = document.createElement('div');
+  let element = document.createElement('div');
   element.className = 'main-container';
   return element;
 }
 
 (function() {
-  const content = document.getElementById('content');
+  let content = document.getElementById('content');
   content.appendChild(bodyComponent());
   addNavbar();
   showHome();

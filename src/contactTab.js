@@ -1,16 +1,16 @@
 function showContact() {
-  var mainContainer = document.querySelector('.main-container');
-  var contactContainer = document.createElement('div');
+  let mainContainer = document.querySelector('.main-container');
+  let contactContainer = document.createElement('div');
   contactContainer.id = 'contact-container';
   mainContainer.appendChild(contactContainer);
 
-  var contactHeader = document.createElement('p');
+  let contactHeader = document.createElement('p');
   contactHeader.id = 'contact-header';
-  var contactzipCode = document.createElement('p');
+  let contactzipCode = document.createElement('p');
   contactzipCode.id = 'contact-zip';
-  var contactEmail = document.createElement('p');
+  let contactEmail = document.createElement('p');
   contactEmail.id = 'contact-email';
-  var contactPhone = document.createElement('p');
+  let contactPhone = document.createElement('p');
   contactHeader.textContent = 'Direction: Constituyentes Esquina con Allende';
   contactPhone.textContent = 'Phone: +52 47 41 14 23 52';
   contactPhone.id = 'contact-phone';
