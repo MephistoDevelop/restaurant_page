@@ -1,12 +1,12 @@
 function showHome() {
-  let mainContainer = document.querySelector('.main-container');
-  let textHome = document.createElement('div');
-  let mainText = document.createElement('h1');
-  let maintext2 = document.createElement('p');
-  let maintext3 = document.createElement('p');
-  let maintext4 = document.createElement('p');
-  let maintext5 = document.createElement('p');
-  let maintext6 = document.createElement('p');
+  const mainContainer = document.querySelector('.main-container');
+  const textHome = document.createElement('div');
+  const mainText = document.createElement('h1');
+  const maintext2 = document.createElement('p');
+  const maintext3 = document.createElement('p');
+  const maintext4 = document.createElement('p');
+  const maintext5 = document.createElement('p');
+  const maintext6 = document.createElement('p');
   maintext2.textContent = '-variety of dishes';
   maintext3.textContent = '-Fresh eats';
   maintext4.textContent = '-Live Music';
@@ -25,5 +25,3 @@ function showHome() {
   mainContainer.appendChild(textHome);
   document.body.style.height = '100px';
 }
-
-export { showHome };

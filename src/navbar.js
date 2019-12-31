@@ -1,13 +1,13 @@
 function addNavbar() {
-  let navContainer = document.createElement('div');
+  const navContainer = document.createElement('div');
   navContainer.className = 'tabscontainer';
 
-  let nav = document.querySelector('.main-container');
+  const nav = document.querySelector('.main-container');
   nav.appendChild(navContainer);
 
-  let tabs = ['Home', 'Menu', 'Contact'];
+  const tabs = ['Home', 'Menu', 'Contact'];
   tabs.forEach(tab => {
-    let button = document.createElement('button');
+    const button = document.createElement('button');
     button.addEventListener('click', changeTab);
     button.textContent = tab;
     button.classList.add(tab.toLowerCase());
@@ -16,9 +16,9 @@ function addNavbar() {
   });
 }
 function init() {
-  let contact = document.getElementById('contact-container');
-  let menu = document.getElementById('menu-container');
-  let home = document.querySelector('.textHome');
+  const contact = document.getElementById('contact-container');
+  const menu = document.getElementById('menu-container');
+  const home = document.querySelector('.textHome');
   contact.style.display = 'none';
   menu.style.display = 'none';
   home.style.display = 'inherit';
@@ -27,9 +27,9 @@ function changeTab() {
   document.addEventListener(
     'click',
     function(e) {
-      let contact = document.getElementById('contact-container');
-      let menu = document.getElementById('menu-container');
-      let home = document.querySelector('.textHome');
+      const contact = document.getElementById('contact-container');
+      const menu = document.getElementById('menu-container');
+      const home = document.querySelector('.textHome');
       if (e.target.className === 'home') {
         contact.style.display = 'none';
         menu.style.display = 'none';
