@@ -21,8 +21,11 @@
   "settings": {
     "import/resolver": {
       "node": {
+        "extensions": [
+          ".js"
+        ],
         "paths": [
-          "./webpack.config.js"
+          "./"
         ]
       }
     }
