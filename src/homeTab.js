@@ -26,4 +26,4 @@ function showHome() {
   document.body.style.height = '100px';
 }
 
-export { showHome };
+export default showHome;

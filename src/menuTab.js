@@ -89,4 +89,4 @@ function showMenu() {
   document.body.style.height = '1150px';
 }
 
-export { showMenu };
+export default showMenu;
