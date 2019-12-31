@@ -3,6 +3,9 @@
     "sourceType": "module",
     "ecmaVersion": 2015
   },
+  "env": {
+    "browser": true
+  },
   "rules": {
     "no-global-assign": ["error", { "exceptions": ["Object"] }]
   }
