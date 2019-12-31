@@ -9,6 +9,22 @@
     "browser": true
   },
   "rules": {
-    "no-global-assign": ["error", { "exceptions": ["Object"] }]
+    "no-global-assign": [
+      "error",
+      {
+        "exceptions": [
+          "Object"
+        ]
+      }
+    ]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": [
+          "./"
+        ]
+      }
+    }
   }
 }
