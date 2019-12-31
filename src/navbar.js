@@ -47,4 +47,4 @@ function changeTab() {
     false
   );
 }
-export { addNavbar, changeTab, init };
+export default { addNavbar, changeTab, init };
