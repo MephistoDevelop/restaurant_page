@@ -10,7 +10,8 @@ function bodyComponent() {
 }
 
 (function() {
-  document.body.appendChild(bodyComponent());
+  const content = document.getElementById("content");
+  content.appendChild(bodyComponent());
   addNavbar();
   showHome();
   showContact();

@@ -86,7 +86,6 @@ function showMenu() {
   cardContainer7.appendChild(friedfishtext);
   cardContainer8.appendChild(friedfish2text);
   cardContainer9.appendChild(souptext);
-
   document.body.style.height = "1150px";
 }
 
