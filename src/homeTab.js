@@ -25,3 +25,5 @@ function showHome() {
   mainContainer.appendChild(textHome);
   document.body.style.height = '100px';
 }
+
+export { showHome };

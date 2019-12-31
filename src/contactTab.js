@@ -22,3 +22,5 @@ function showContact() {
   contactContainer.appendChild(contactzipCode);
   contactContainer.appendChild(contactEmail);
 }
+
+export { showContact };
