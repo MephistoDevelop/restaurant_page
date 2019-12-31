@@ -22,7 +22,7 @@
     "import/resolver": {
       "node": {
         "paths": [
-          "./"
+          "./webpack.config.js"
         ]
       }
     }
