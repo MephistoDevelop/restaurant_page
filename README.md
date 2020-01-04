@@ -18,6 +18,8 @@ Javascript with Webpack project from The Odin Project [curriculum](https://www.t
 
 ## Getting Started
 
+-To start to  use this proyect download this repository to your computer and descompress all  the files and open your terminal from the containing folder and run the commands published below on prerequisites section. 
+
 ### Prerequisites
 
 -before to run this project you will need to install before webpack and configure the live server on your webpac.config file. you can check more about it on this [page](https://webpack.js.org/guides/installation/) .
