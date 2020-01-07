@@ -1,0 +1,393 @@
+body {
+  font-weight: 500;
+  height: 100%;
+  background-image: url("./img/restaurant.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1 {
+  margin: 0;
+}
+p {
+  margin: 0;
+  padding: 10px;
+}
+.container {
+  width: 100%;
+  margin: 0px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.card-image-container {
+  margin: 10px;
+  width: 35%;
+  height: 95%;
+  border-radius: 20%;
+  box-shadow: 6px 6px 5px 1px black;
+  background-color: transparent;
+}
+.gridImages-container {
+  width: 100%;
+  display: flex;
+  margin: 30px 0;
+  min-height: 280px;
+}
+.main-container {
+  background-color: transparent !important;
+  display: flex;
+  color: white;
+  height: 100vh;
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  background-color: #dff6f0;
+  flex-direction: column;
+}
+.home {
+  border-right: 2px solid #46b3e6 !important;
+  width: 33.5%;
+  height: 100%;
+  border: none;
+  font-size: 28px;
+  padding: 0;
+  font-weight: 800;
+  background-color: transparent;
+  text-shadow: 1px 1px 1px white;
+  transition: 0.8s;
+}
+.home:hover {
+  background-color: #46b3e6 !important;
+  color: white;
+  transition: 0.5s;
+  text-shadow: 1px 1px 1px black;
+  opacity: 0.8;
+}
+.menu {
+  border-right: 2px solid #46b3e6 !important;
+  width: 33.5%;
+  height: 100%;
+  border: none;
+  font-size: 28px;
+  padding: 0;
+  font-weight: 800;
+  background-color: transparent;
+  text-shadow: 1px 1px 1px white;
+  transition: 0.8s;
+}
+.menu:hover {
+  background-color: #46b3e6 !important;
+  color: white;
+  transition: 0.5s;
+  text-shadow: 1px 1px 1px black;
+  opacity: 0.8;
+}
+.contact {
+  width: 33.5%;
+  height: 100%;
+  border: none;
+  font-size: 28px;
+  padding: 10px 0;
+  font-weight: 800;
+  background-color: transparent;
+  text-shadow: 1px 1px 1px white;
+  transition: 0.8s;
+}
+.contact:hover {
+  background-color: #46b3e6 !important;
+  color: white;
+  transition: 0.3s;
+  text-shadow: 1px 1px 1px black;
+  opacity: 0.8;
+}
+#contact-container {
+  background-color: rgba(70, 179, 230, 0.3);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3% 0px;
+  padding-top: 5%;
+}
+#contact-email {
+  text-shadow: 10px 1px 25px black;
+  font-weight: bolder;
+  font-size: 32px;
+  z-index: 1;
+}
+#contact-header {
+  text-align: center;
+  text-shadow: 8px 5px 8px black;
+  font-size: 30px;
+  margin-top: 3%;
+  text-decoration: none;
+  padding: 20px 0;
+  width: 75%;
+  font-weight: bolder;
+}
+#contact-phone {
+  text-shadow: 10px 1px 25px black;
+  font-weight: bolder;
+  font-size: 32px;
+  z-index: 1;
+}
+#contact-zip {
+  text-shadow: 10px 1px 25px black;
+  font-weight: bolder;
+  font-size: 32px;
+  z-index: 1;
+}
+#fried-fish {
+  background-image: url(./img/fried-fish.jpeg);
+  width: 33%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 250px;
+}
+#fried-fish2 {
+  background-image: url(./img/fried-fish2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -50px;
+  min-height: 250px;
+}
+#img-ostions {
+  background-image: url(./img/ostions.jpeg);
+  background-size: cover;
+  min-height: 250px;
+}
+#img-cocktail-shrimp {
+  background-image: url(./img/cocktail.jpg);
+  height: auto;
+  width: 33%;
+  background-size: cover;
+  transition: 0.5s;
+}
+#shrimp-text {
+  text-shadow: 5px 3px 1px black;
+  position: relative;
+  top: 70%;
+  font-size: 35px;
+  text-align: center;
+  color: white;
+}
+.images-text {
+  text-shadow: 5px 3px 1px black;
+  position: relative;
+  top: 70%;
+  font-size: 35px;
+  text-align: center;
+  color: white;
+}
+
+#img-cocktail-shrimp:hover {
+  margin: 10px;
+  color: white;
+}
+
+#img-cocktail-octopus {
+  background-image: url(./img/octopus-cocktail.jpg);
+  height: auto;
+  width: 33%;
+  background-size: cover;
+}
+#shrimp-soup {
+  background-image: url(./img/shrimp-soup.jpg);
+  height: auto;
+  width: 33%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -0px -80px;
+}
+#speciality-text {
+  width: 50%;
+  text-align: left;
+}
+#tostada-ceviche {
+  background-image: url(./img/tostada-ceviche.jpeg);
+  height: auto;
+  width: 33%;
+  background-size: cover;
+}
+#tostada-camaron {
+  background-image: url(./img/tostada-camaron.jpeg);
+  height: auto;
+  width: 33%;
+  background-size: cover;
+}
+#tostada-pulpo {
+  background-image: url(./img/tostada-pulpo.jpeg);
+  height: auto;
+  width: 33%;
+  background-size: cover;
+}
+#menu-container {
+  background-color: rgba(70, 179, 230, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3% 0px;
+}
+.tabscontainer {
+  display: flex;
+  width: 100%;
+  min-height: 52px;
+  background-color: rgba(240, 248, 255, 0.8);
+}
+.textHome {
+  margin: 3% 0;
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  min-height: 500px;
+  font-size: 20px;
+  background-color: rgba(70, 179, 230, 0.3);
+}
+.textHome h1 {
+  text-align: center;
+  text-shadow: 8px 5px 8px black;
+  font-size: 38px;
+  text-decoration: none;
+  padding: 30px 0;
+  transition: 0.5s;
+}
+.textHome h1:hover {
+  text-decoration: underline;
+  transition: 0.5s;
+}
+.textHome p {
+  text-shadow: 10px 1px 25px black;
+  font-weight: bolder;
+  font-size: 28px;
+  padding: 10px 160px;
+  z-index: 1;
+}
+.textHome p:hover {
+  text-decoration: underline;
+  font-size: 30px !important;
+}
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+  .body {
+    height: 1290px !important;
+  }
+  .card-image-container {
+    width: 45% !important;
+    height: 250px !important;
+  }
+  .gridImages-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .home,
+  .menu,
+  .contact {
+    font-size: 18px !important;
+  }
+  .textHome h1 {
+    font-size: 38px;
+  }
+  .textHome p {
+    padding: 8px 0;
+    margin: 2px 15%;
+    font-size: 20px;
+  }
+  .textHome p:hover {
+    font-size: 22px !important;
+  }
+  #contact-container {
+    max-height: 380px;
+  }
+  #contact-header {
+    font-size: 24px;
+    width: 100%;
+    margin: 10% 3% 0 0;
+  }
+  #contact-phone {
+    font-size: 26px;
+  }
+  #contact-zip {
+    font-size: 26px;
+  }
+  #openText {
+    margin-left: 15%;
+    width: 70%;
+    text-align: left;
+  }
+  #speciality-text {
+    margin-left: 15%;
+    width: 70%;
+    text-align: left;
+  }
+  #fried-fish2 {
+    background-position: 0 0;
+  }
+  #shrimp-soup {
+    background-position: 0 0;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 499px) {
+  button {
+    font-size: 18px !important;
+  }
+  .gridImages-container {
+    flex-wrap: wrap;
+  }
+  .card-image-container {
+    width: 100% !important;
+    height: 400px !important;
+  }
+  .tabscontainer {
+    min-width: 300px;
+  }
+
+  #contact-container {
+    min-width: 300px;
+    margin: 5% 0%;
+    padding: 15vh 0;
+    max-height: 40%;
+  }
+  #contact-header {
+    font-size: 18px !important;
+
+    min-width: 250px;
+  }
+  #contact-phone {
+    font-size: 17px;
+  }
+  #contact-zip {
+    font-size: 16px;
+  }
+  #contact-email {
+    font-size: 18px;
+  }
+  #openText {
+    font-size: 15px;
+  }
+  #speciality-text {
+    font-size: 15px;
+    width: 80%;
+  }
+  #menu-container {
+    margin: 10px 0;
+  }
+  .textHome {
+    max-height: 65%;
+    min-width: 220px;
+    margin: 10px 0;
+    padding: 0 5%;
+  }
+  .textHome h1 {
+    font-size: 18px;
+  }
+  .textHome h1:hover {
+    font-size: 20px;
+  }
+
+  .textHome p {
+    font-size: 16px;
+    margin: 0;
+    padding: 10px 0;
+  }
+  .textHome p:hover {
+    font-size: 15px !important;
+  }
+}
