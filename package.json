@@ -4,22 +4,42 @@
   "description": "Restaurant webpage",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "builddev": "webpack --mode development",
+    "start": "webpack-dev-server --mode development --open"
   },
   "keywords": [],
   "author": "MephistoDevelop <inesherald@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "webpack": "^5.0.0-beta.9",
-    "webpack-cli": "^3.3.10"
+    "@webpack-cli/init": "^0.3.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "css-loader": "^3.4.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-import-resolver-webpack": "^0.12.0",
+    "file-loader": "^5.0.2",
+    "style-loader": "^1.1.1",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MephistoDevelop/restaurant_page.git"
   },
   "bugs": {
     "url": "https://github.com/MephistoDevelop/restaurant_page/issues"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    }
   },
   "homepage": "https://github.com/MephistoDevelop/restaurant_page#readme"
 }
