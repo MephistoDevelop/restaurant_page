@@ -1,3 +1,4 @@
+
 # Restaurant Web page
 
 > Project taked from Microverse Curriculum from the The Odin Page project site.
@@ -62,6 +63,9 @@ This page was inspired by my own bussines i'm a food-seller on my free times whi
 
 This project is [MIT](lic.url) licensed.
 
-### Author:
 
+
+### Author:
 [Cristian Ines (MephistoDevelop)](https://github.com/MephistoDevelop)
+
+
